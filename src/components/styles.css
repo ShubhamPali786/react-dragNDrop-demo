@@ -1,0 +1,14 @@
+.taskplanner-header-cn {
+  text-align: end;
+  box-shadow: 1px 1px 2px 1px #9e9e9e66;
+  padding: 10px;
+  background-color: white;
+}
+.taskplanner-header-cn h2{
+    color: #413a3a;
+}
+.taskplanner-column-cn{
+    height: 40em;
+    padding-left: 20px;
+    padding-right: 20px;
+}

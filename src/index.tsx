@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { TaskPlanner } from './components/TaskPlanner';
+import './App.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <TaskPlanner />
   </React.StrictMode>,
   document.getElementById('root')
 );
