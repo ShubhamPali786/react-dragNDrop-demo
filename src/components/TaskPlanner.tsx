@@ -56,7 +56,14 @@ export const TaskPlanner: React.FC<{}> = (props) => {
     const tasks: ITaskList[] = [
       {
         columnName: "TO-DO",
-        tasks: [],
+        tasks: [
+          {
+            taskdetail:
+              "Goal: Brainstorme ideas to drive customer engagements.",
+            tags: ["Backlog", "Deadline - Aug 2021"],
+            taskId: "task1",
+          }
+        ],
       },
       {
         columnName: "IN PROGRESS",
@@ -121,6 +128,7 @@ export const TaskPlanner: React.FC<{}> = (props) => {
         setTagOption={(newTagValue: TagOption) =>
           setTagOptions([...tagOptions, newTagValue])
         }
+        
       />
     </React.Fragment>
   );

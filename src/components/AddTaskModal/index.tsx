@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Button, Form, Modal } from "react-bootstrap";
-import { ActionMeta, MultiValue, OnChangeValue } from "react-select";
+import { ActionMeta, OnChangeValue } from "react-select";
 import CreatableSelect from "react-select/creatable";
 import { TagOption } from "../TaskPlanner";
 

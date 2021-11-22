@@ -1,6 +1,6 @@
 import React from "react";
 import { Droppable } from "react-beautiful-dnd";
-import { Col, Container } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 import { ITaskList } from "../../models/TaskPlannerModels";
 import { Task } from "../Task";
 import "./styles.css";

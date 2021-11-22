@@ -21,7 +21,7 @@ export const Task: React.FC<TaskProps> = (props) => {
         >
           <p>{props.task.taskdetail}</p>
           <div className="task-tags-cn">
-            {props.task.tags.map(item=><p>{item}</p>)}
+            {props.task.tags.map(item=><p key={item}>{item}</p>)}
           </div>
         </Container>
       )}
